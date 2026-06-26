@@ -1,15 +1,14 @@
-# 📊 Customer Churn Prediction and Customer Segmentation using Machine Learning
+#  Customer Churn Prediction and Customer Segmentation using Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 
 Customer churn is a critical business problem where companies lose customers to competitors. 
 This project aims to build a Machine Learning model to predict customer churn and identify high-risk customer segments using clustering techniques. 
 
 The objective is to help businesses proactively identify customers who are likely to leave and design targeted retention strategies.
 
----
 
-## 📂 Dataset Description
+## Dataset Description
 
 The project uses the Telco Customer Churn dataset, which contains:
 
@@ -23,9 +22,9 @@ The dataset provides insights into customer behavior and service usage patterns.
 
 ---
 
-## 🔄 Project Workflow
+##  Project Workflow
 
-### 1️⃣ Data Preprocessing
+### 1️ Data Preprocessing
 - Loaded dataset using Pandas
 - Handled missing values
 - Converted categorical variables using encoding techniques
@@ -33,7 +32,7 @@ The dataset provides insights into customer behavior and service usage patterns.
 
 ---
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+### 2️ Exploratory Data Analysis (EDA)
 
 Performed detailed analysis to understand customer behavior:
 
@@ -46,14 +45,14 @@ EDA revealed that customers with lower tenure and higher monthly charges tend to
 
 ---
 
-### 3️⃣ Churn Prediction Modeling
+### 3️ Churn Prediction Modeling
 
 Implemented and compared multiple classification models:
 
 - Logistic Regression
 - Random Forest Classifier
 
-### ✅ Model Evaluation Metrics:
+###  Model Evaluation Metrics:
 - Accuracy (~80%)
 - Confusion Matrix
 - Precision, Recall, F1-score
@@ -63,7 +62,7 @@ The Random Forest model performed better and demonstrated strong class separatio
 
 ---
 
-### 4️⃣ Threshold Optimization
+### 4️ Threshold Optimization
 
 Since churn prediction is a recall-sensitive problem, classification threshold was tuned to improve churn detection.
 
@@ -71,7 +70,7 @@ This helped reduce false negatives and improve business impact.
 
 ---
 
-### 5️⃣ Feature Importance Analysis
+### 5️ Feature Importance Analysis
 
 Random Forest feature importance analysis identified key churn drivers:
 
@@ -84,7 +83,7 @@ These features significantly influence customer churn probability.
 
 ---
 
-### 6️⃣ Customer Segmentation (K-Means Clustering)
+### 6️ Customer Segmentation (K-Means Clustering)
 
 Applied K-Means clustering to segment customers into distinct groups based on behavioral features.
 
@@ -106,7 +105,7 @@ Segmentation provides actionable insights for targeted retention campaigns.
 
 ---
 
-## 💼 Business Impact
+##  Business Impact
 
 The model enables:
 
@@ -119,7 +118,7 @@ This solution can help telecom businesses reduce churn and increase profitabilit
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -130,7 +129,7 @@ This solution can help telecom businesses reduce churn and increase profitabilit
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Hyperparameter tuning for performance improvement
 - Deployment using Streamlit or Flask
@@ -139,6 +138,6 @@ This solution can help telecom businesses reduce churn and increase profitabilit
 
 ---
 
-## 🎯 Conclusion
+##  Conclusion
 
 This project successfully combines supervised learning for churn prediction and unsupervised learning for customer segmentation. The model achieved strong predictive performance (ROC-AUC 0.83) and provided meaningful business insights that can help organizations design effective retention strategies.
